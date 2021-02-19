@@ -1,0 +1,21 @@
+nav a{
+    text-align: left;
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+}
+
+
+
+nav a:hover{
+    color:royalblue
+}
+
+nav {
+    text-align: center;
+    display: flex;
+    flex-flow: row-reverse;
+    background-color: rgba(211, 211, 211, 0.4);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}

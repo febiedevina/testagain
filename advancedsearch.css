@@ -1,0 +1,128 @@
+.words{
+    text-align: right;
+    margin-right: 10px;
+    margin: 20px;
+}
+
+.logo{
+    text-align: left;
+    margin-right: auto;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+
+.margin{
+    margin : 0 40px;
+}
+
+h1{
+    color: #d93025;
+    font-weight: 200;
+    font-size:24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+    color: rgb(233, 232, 232,0.3) 
+ }
+ 
+.border-bawah{
+    color: #ebebeb;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: 200px 700px auto;
+    column-gap: 10px;
+    row-gap:10px;
+}
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-left: 10px;
+}
+
+h2{
+    font-size: 16px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rightheader{
+    margin-top: 20px;
+    font-size:13px;
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-size{
+    font-size: 13px;
+    column-gap: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.box-size {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: auto;
+    width: 90%;
+    column-gap: 0px;
+}
+
+.second-label{
+    font-size:11px;
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lanjutan{
+    font-family: monospace;
+    font-size: 11px;
+    color: #666;
+}
+
+.nomor{
+    width: 43.2%;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+}
+
+span{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.position{
+    margin-left: 712px;
+}
+.search-bt{
+    border-radius: 2px;
+    padding: 8px 12px;
+    color: white;
+    background: #4d90fe;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.search-bt:hover{
+    border: 1px solid #ccc;
+}
